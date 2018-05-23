@@ -116,27 +116,3 @@ class database {
 
 let db = new database(fs, mongo, 'akwa1');
 db.load();
-
-
-/*
-{
-	"_id" : ObjectId("593f5f2726181816f55d4da9"),
-	"client" : {
-		"clientId" : "012179919676",
-		"projectId" : "us-east-1_zI0af0OBy"
-	},
-	"updatedBy" : {
-		"uuid" : "d744458c-866c-4e49-bef7-82080872536f",
-		"firstName" : "Sujoy",
-		"lastName" : "Mukherjee1",
-		"email" : "sujoy@nicbit.com"
-	},
-	"status" : 1,
-	"sysDefined" : 1,
-	"name" : "address",
-	"code" : "address",
-	"tags" : [ ],
-	"updatedOn" : ISODate("2017-06-13T03:42:31.386Z"),
-	"__v" : 0
-}
-*/
