@@ -1,0 +1,239 @@
+local: 
+  defaultRecordsPerPage: 20
+  dbURI : 
+  trackingDbURI : 
+  SLS_DEBUG: '*'
+  iamURI: "https://iam.amazonaws.com/"
+  kms: 0
+  cacheHost: "localhost"
+  cachePort: 11211
+  accountNo: ''
+  accessKeyId: <Your AWS Access key>
+  secretAccessKey: <Your Secret AWS access key>
+  region: 'us-west-2'
+  stage: local
+  batteryfetchCount: 4
+  syncCount: 500
+  trackingLambda: 'ak-emptrak-track-processTracking'
+  shipmentStatusLambda:  'ak-emptrak-track-processShipmentStatus'
+  productTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-productTracking'
+  shipmentTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-shipmentTracking'
+  userTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-userTracking'
+  deviceTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-deviceTracking'
+  SENDGRID_API_KEY: ''
+  cloudWatchTrackingLatencyMatric: 'tracking_qc_data_debug'
+  adminurl: ''
+  enableAutoShipped: 1
+  enableAutoDelivered: 1
+  nearLocationDistanceMeters: 5000
+  docBucket: emptrak-documents
+  cognitoUserpoolId: // user pool id
+  cognitoClientId: // user pool app id
+  logLevel: All
+  uaProdMode: 0
+  shipmentMapPrefix: ''
+  exportsFolderName: exports
+  iotEndpoint: ''
+  EMAIL_FROM_ADDRESS: 'dev@akwa.io'
+  defaultBeaconUUID: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e'
+  userpoolExternalId: 7e0bd11b-0425-446e-94e3-3809f9fd3a2e
+  kontaktManagerId: 46917206-fb4d-40ae-868c-fab382cb8c95
+  kontaktPlaceId: e4ed6f9f-8259-4646-b5ed-7262864640a2
+  kontaktBaseUrl: 'https://api.kontakt.io'
+  projectName: 'emptrak'
+  kontaktLocationEngineUrl: 'ovs.kontakt.io'
+  googleGeocodeApiUrl: 'http://maps.googleapis.com:80/maps/api/geocode/json'
+  adminGroupName: 'AkAdmin'
+  sendNotificationLambdaName: 'ak-emptrak-emails-sendNotification'
+  kontaktApiKey: 
+  apiBaseUrl: 
+  iotTopic: 
+  invokedSyncLambdaName: ak-emptrak-jobs-invokedSync
+  exporterLambda:  'ak-emptrak-export-export'
+  blTrackingStream: 'TrackingBLStream'
+  allowedAppNames: 'emptrak'
+  companyName: Akwa
+  footerText: Copyright © 2017 AKWA IoT LLC. All rights reserved.
+  salutationText: Akwa Team
+  companyLogo: 
+  defaultBeaconMajor: 2
+
+api:
+  defaultRecordsPerPage: 20
+  dbURI : 
+  trackingDbURI : 
+  SLS_DEBUG: '*'
+  iamURI: "https://iam.amazonaws.com/"
+  kms: 0
+  cacheHost: "localhost"
+  cachePort: 11211
+  accountNo: ''
+  accessKeyId: <Your AWS Access key>
+  secretAccessKey: <Your Secret AWS access key>
+  region: 'us-west-2'
+  stage: local
+  batteryfetchCount: 4
+  syncCount: 500
+  trackingLambda: 'ak-emptrak-track-processTracking'
+  shipmentStatusLambda:  'ak-emptrak-track-processShipmentStatus'
+  productTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-productTracking'
+  shipmentTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-shipmentTracking'
+  userTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-userTracking'
+  deviceTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-deviceTracking'
+  SENDGRID_API_KEY: ''
+  cloudWatchTrackingLatencyMatric: 'tracking_qc_data_debug'
+  adminurl: ''
+  enableAutoShipped: 1
+  enableAutoDelivered: 1
+  nearLocationDistanceMeters: 5000
+  docBucket: emptrak-documents
+  cognitoUserpoolId: // user pool id
+  cognitoClientId: // user pool app id
+  logLevel: All
+  uaProdMode: 0
+  shipmentMapPrefix: ''
+  exportsFolderName: exports
+  iotEndpoint: ''
+  EMAIL_FROM_ADDRESS: 'dev@akwa.io'
+  defaultBeaconUUID: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e'
+  userpoolExternalId: 7e0bd11b-0425-446e-94e3-3809f9fd3a2e
+  kontaktManagerId: 46917206-fb4d-40ae-868c-fab382cb8c95
+  kontaktPlaceId: e4ed6f9f-8259-4646-b5ed-7262864640a2
+  kontaktBaseUrl: 'https://api.kontakt.io'
+  projectName: 'emptrak'
+  kontaktLocationEngineUrl: 'ovs.kontakt.io'
+  googleGeocodeApiUrl: 'http://maps.googleapis.com:80/maps/api/geocode/json'
+  adminGroupName: 'AkAdmin'
+  sendNotificationLambdaName: 'ak-emptrak-emails-sendNotification'
+  kontaktApiKey: 
+  apiBaseUrl: 
+  iotTopic: 
+  invokedSyncLambdaName: ak-emptrak-jobs-invokedSync
+  exporterLambda:  'ak-emptrak-export-export'
+  blTrackingStream: 'TrackingBLStream'
+  allowedAppNames: 'emptrak'
+  companyName: Akwa
+  footerText: Copyright © 2017 AKWA IoT LLC. All rights reserved.
+  salutationText: Akwa Team
+  companyLogo: 
+  defaultBeaconMajor: 2
+
+ng:
+  defaultRecordsPerPage: 20
+  dbURI : 
+  trackingDbURI : 
+  SLS_DEBUG: '*'
+  iamURI: "https://iam.amazonaws.com/"
+  kms: 0
+  cacheHost: "localhost"
+  cachePort: 11211
+  accountNo: ''
+  accessKeyId: <Your AWS Access key>
+  secretAccessKey: <Your Secret AWS access key>
+  region: 'us-west-2'
+  stage: local
+  batteryfetchCount: 4
+  syncCount: 500
+  trackingLambda: 'ak-emptrak-track-processTracking'
+  shipmentStatusLambda:  'ak-emptrak-track-processShipmentStatus'
+  productTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-productTracking'
+  shipmentTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-shipmentTracking'
+  userTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-userTracking'
+  deviceTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-deviceTracking'
+  SENDGRID_API_KEY: ''
+  cloudWatchTrackingLatencyMatric: 'tracking_qc_data_debug'
+  adminurl: ''
+  enableAutoShipped: 1
+  enableAutoDelivered: 1
+  nearLocationDistanceMeters: 5000
+  docBucket: emptrak-documents
+  cognitoUserpoolId: // user pool id
+  cognitoClientId: // user pool app id
+  logLevel: All
+  uaProdMode: 0
+  shipmentMapPrefix: ''
+  exportsFolderName: exports
+  iotEndpoint: ''
+  EMAIL_FROM_ADDRESS: 'dev@akwa.io'
+  defaultBeaconUUID: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e'
+  userpoolExternalId: 7e0bd11b-0425-446e-94e3-3809f9fd3a2e
+  kontaktManagerId: 46917206-fb4d-40ae-868c-fab382cb8c95
+  kontaktPlaceId: e4ed6f9f-8259-4646-b5ed-7262864640a2
+  kontaktBaseUrl: 'https://api.kontakt.io'
+  projectName: 'emptrak'
+  kontaktLocationEngineUrl: 'ovs.kontakt.io'
+  googleGeocodeApiUrl: 'http://maps.googleapis.com:80/maps/api/geocode/json'
+  adminGroupName: 'AkAdmin'
+  sendNotificationLambdaName: 'ak-emptrak-emails-sendNotification'
+  kontaktApiKey: 
+  apiBaseUrl: 
+  iotTopic: 
+  invokedSyncLambdaName: ak-emptrak-jobs-invokedSync
+  exporterLambda:  'ak-emptrak-export-export'
+  blTrackingStream: 'TrackingBLStream'
+  allowedAppNames: 'emptrak'
+  companyName: Akwa
+  footerText: Copyright © 2017 AKWA IoT LLC. All rights reserved.
+  salutationText: Akwa Team
+  companyLogo: 
+  defaultBeaconMajor: 2
+
+qc:
+  defaultRecordsPerPage: 20
+  dbURI : 
+  trackingDbURI : 
+  SLS_DEBUG: '*'
+  iamURI: "https://iam.amazonaws.com/"
+  kms: 0
+  cacheHost: "localhost"
+  cachePort: 11211
+  accountNo: ''
+  accessKeyId: <Your AWS Access key>
+  secretAccessKey: <Your Secret AWS access key>
+  region: 'us-west-2'
+  stage: local
+  batteryfetchCount: 4
+  syncCount: 500
+  trackingLambda: 'ak-emptrak-track-processTracking'
+  shipmentStatusLambda:  'ak-emptrak-track-processShipmentStatus'
+  productTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-productTracking'
+  shipmentTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-shipmentTracking'
+  userTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-userTracking'
+  deviceTrackingIotTopic: 'ak--us-west-2_XUUjby6xT-deviceTracking'
+  SENDGRID_API_KEY: ''
+  cloudWatchTrackingLatencyMatric: 'tracking_qc_data_debug'
+  adminurl: ''
+  enableAutoShipped: 1
+  enableAutoDelivered: 1
+  nearLocationDistanceMeters: 5000
+  docBucket: emptrak-documents
+  cognitoUserpoolId: // user pool id
+  cognitoClientId: // user pool app id
+  logLevel: All
+  uaProdMode: 0
+  shipmentMapPrefix: ''
+  exportsFolderName: exports
+  iotEndpoint: ''
+  EMAIL_FROM_ADDRESS: 'dev@akwa.io'
+  defaultBeaconUUID: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e'
+  userpoolExternalId: 7e0bd11b-0425-446e-94e3-3809f9fd3a2e
+  kontaktManagerId: 46917206-fb4d-40ae-868c-fab382cb8c95
+  kontaktPlaceId: e4ed6f9f-8259-4646-b5ed-7262864640a2
+  kontaktBaseUrl: 'https://api.kontakt.io'
+  projectName: 'emptrak'
+  kontaktLocationEngineUrl: 'ovs.kontakt.io'
+  googleGeocodeApiUrl: 'http://maps.googleapis.com:80/maps/api/geocode/json'
+  adminGroupName: 'AkAdmin'
+  sendNotificationLambdaName: 'ak-emptrak-emails-sendNotification'
+  kontaktApiKey: 
+  apiBaseUrl: 
+  iotTopic: 
+  invokedSyncLambdaName: ak-emptrak-jobs-invokedSync
+  exporterLambda:  'ak-emptrak-export-export'
+  blTrackingStream: 'TrackingBLStream'
+  allowedAppNames: 'emptrak'
+  companyName: Akwa
+  footerText: Copyright © 2017 AKWA IoT LLC. All rights reserved.
+  salutationText: Akwa Team
+  companyLogo: 
+  defaultBeaconMajor: 2

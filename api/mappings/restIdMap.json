@@ -1,0 +1,97 @@
+{
+  "restApi": {
+    "dashboard": {
+      "Dashboard": {
+        "id": "k4157ccczg",
+        "resource": "*"
+      }
+    },
+    "master": {
+      "Category": {
+        "id": "goorsz24hj",
+        "resource": "*"
+      },
+      "Locations": {
+        "id": "pj2j626sr6",
+        "resource": "*"
+      },
+      "Tags": {
+        "id": "oi7grt3mlh",
+        "resource": "*"
+      },
+      "Activities": {
+        "id": "ij7grt3mrt",
+        "resource": "*"
+      },
+      "Beacons": {
+        "id": "c7ypbd43j5",
+        "resource": "beacons/*"
+      },
+      "Apps": {
+        "id": "c7ypbd43j5",
+        "resource": "devices/*"
+      }
+    },
+    "admin": {
+      "Permissions": {
+        "id": "czltk36rf6",
+        "resource": "*"
+      },
+      "Configuration": {
+        "id": "g5bynx7471",
+        "resource": "*"
+      },
+      "Audit Trail": {
+        "id": "87emf890wa",
+        "resource": "*"
+      },
+      "Accepted/Discarded Data Points": {
+        "id": "rsb5gim459",
+        "httpVerb": ["GET"],
+        "resource": "pointstatus-tracking/*"
+      },
+      "Mobile logs": {
+        "id": "rsb5gim459",
+        "httpVerb": ["GET"],
+        "resource": "mobilelogs/*"
+      },
+      "Raw Data Points": {
+        "id": "rsb5gim459",
+        "httpVerb": ["GET"],
+        "resource": "rawsensors-tracking/*"
+      },
+      "App Status": {
+        "id": "0w5p85dp3j",
+        "httpVerb": ["GET"],
+        "resource": "app-status/*"
+      },
+      "Device Locator": {
+        "id": "0w5p85dp3j",
+        "httpVerb": ["GET"],
+        "resource": "device-locator/*"
+      },
+      "Location To Zones Mapping": {
+        "id": "0w5p85dp3j",
+        "httpVerb": ["GET"],
+        "resource": "location-zone-mapping/*"
+      }
+    },
+    "reports": {
+      "Employee Locator": {
+        "id": "0w5p85dp3j",
+        "httpVerb": ["GET"],
+        "resource": "user-locator-list/*"
+      },
+      "Employee Attendance": {
+        "id": "0w5p85dp3j",
+        "httpVerb": ["GET"],
+        "resource": "user-entrance/*"
+      },
+      "Login History": {
+        "id": "0w5p85dp3j",
+        "httpVerb": ["GET"],
+        "resource": "login-history/*"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+defaults:
+  stage: api
+  role: 
+  region: us-west-2
+  memorySize: 512
+  deploymentBucketName: slsdeploy-emptrak
+  versionFunctions: true
+  timeout: 30
+  prefix: ak-emptrak- 
+  
+authrizer: ak-common-authorizer

@@ -1,0 +1,4 @@
+securityGroupIds:
+  - sg-54fc8a29
+subnetIds:
+  - subnet-a0dc53e8
